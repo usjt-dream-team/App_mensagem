@@ -35,7 +35,7 @@ body {
 .content::before {
   content: "";
   position: absolute;
-  background-color: #58af9b;
+  background-color: #473c8d;
   width: 40%;
   height: 100%;
   border-top-left-radius: 15px;
@@ -55,7 +55,7 @@ body {
 }
 
 .title-second {
-  color: #58af9b;
+  color: #473c8d;
 }
 
 .description {
@@ -69,7 +69,7 @@ body {
 }
 
 .description-second {
-  color: #7f8c7f;
+  color: #473c8d;
 }
 
 .btn {
@@ -92,20 +92,20 @@ body {
 }
 
 .btn-second {
-  background-color: #58af9b;
+  background-color: #473c8d;
   border: 1px solid #fff;
   transition: background-color 0.5s;
 }
 
 .btn-primary:hover {
   background-color: #fff;
-  color: #58af9b;
+  color: #473c8d;
 }
 
 .btn-second:hover {
   background-color: #fff;
-  border: 1px solid #58af9b;
-  color: #58af9b;
+  border: 1px solid #473c8d;
+  color: #473c8d;
 }
 
 /*
@@ -148,14 +148,14 @@ body {
 }
 
 .link-social-media .item-social-media {
-  color: #58af9b;
+  color: #473c8d;
   transition: background-color 0.5s;
 }
 
 .link-social-media:hover .item-social-media {
-  background-color: #58af9b;
+  background-color: #473c8d;
   color: #fff;
-  border-color: #58af9b;
+  border-color: #473c8d;
 }
 
 .list-social-media {
@@ -164,7 +164,7 @@ body {
 }
 
 .item-social-media {
-  border: 1px solid #bdc3c7;
+  border: 1px solid #473c8d;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -183,18 +183,18 @@ body {
   height: 45px;
   width: 100%;
   border: none;
-  background-color: #edf0f1;
+  background-color: #f1efff;
 }
 
 .label-input {
-  background-color: #edf0f1;
+  background-color: #f1efff;
   display: flex;
   align-items: center;
   margin: 8px;
 }
 
 .icon-modify {
-  color: #7f8c7f;
+  color: #473c8d;
   padding: 0 5px;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .password {
-  color: #34495e;
+  color: f1efff;
   font-size: 14px;
   margin: 15px 0;
   text-align: center;
