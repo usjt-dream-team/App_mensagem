@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Responsivo</title>
+    <title>Talking Login</title>
     <link rel="stylesheet" href="css/styleRes.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,19 +26,19 @@
       <div class="content first-content">
         <!--TRABALHANDO COM DUAS COLUNAS-->
         <div class="first-column">
-          <h2 class="title title-primary">Welcome back!</h2>
+          <img class="imglogin" src="img/logoA.png" alt="" />
           <p class="description description-primary">
-            to keep connected with us
+            Converse com seus Amigos agora
           </p>
           <p class="description description-primary">
-            please login with your personal info
+            faça login com seu melhor Email
           </p>
           <button id="signin" class="btn btn-primary">sign in</button>
         </div>
         <!--FIRST COLUMN-->
 
         <div class="second-column">
-          <h2 class="title-second">Create account</h2>
+          <h2 class="title-second">Crie sua conta</h2>
           <div class="social-media">
             <ul class="list-social-media">
               <a class="link-social-media" href="#">
@@ -63,23 +63,23 @@
           <!--SOCIAL MEDIA-->
 
           <p class="description description-second">
-            or use your email for registration:
+            use seu Email para se cadastrar:
           </p>
 
           <form action="" class="form">
             <label class="label-input" for="">
               <i class="far fa-user icon-modify"></i>
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Name" required />
             </label>
 
             <label class="label-input" for="">
               <i class="far fa-envelope icon-modify"></i>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" required />
             </label>
 
             <label class="label-input" for="">
               <i class="fas fa-lock icon-modify"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" required />
             </label>
 
             <button class="btn btn-second">sing up</button>
@@ -93,19 +93,14 @@
       <div class="content second-content">
         <!--TRABALHANDO COM DUAS COLUNAS-->
         <div class="first-column">
-          <h2 class="title title-primary">Hello Friend!</h2>
-          <p class="description description-primary">
-            Enter the personal details
-          </p>
-          <p class="description description-primary">
-            and start journey with us
-          </p>
+          <img class="imglogin" src="img/logoA.png" alt="" />
+          <p class="description description-primary">não sou cadastrado</p>
           <button id="signup" class="btn btn-primary">sign up</button>
         </div>
         <!--FIRST COLUMN-->
 
         <div class="second-column">
-          <h2 class="title title-second">sing in to developer</h2>
+          <h2 class="title title-second">experimente Talk</h2>
           <div class="social-media">
             <ul class="list-social-media">
               <a class="link-social-media" href="#">
@@ -128,22 +123,21 @@
             </ul>
           </div>
           <!--SOCIAL MEDIA-->
-          <p class="description description-second">
-            or use your email account:
-          </p>
+
+          <p class="description description-second">use sua conta de email:</p>
 
           <form action="" class="form">
             <label class="label-input" for="">
               <i class="far fa-envelope icon-modify"></i>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" required />
             </label>
 
             <label class="label-input" for="">
               <i class="fas fa-lock icon-modify"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="senha" required />
             </label>
 
-            <a class="password" href="#">forgot your password</a>
+            <a class="password" href="#">esqueci minha senha</a>
             <button class="btn btn-second">sing in</button>
           </form>
         </div>

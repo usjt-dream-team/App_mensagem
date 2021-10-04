@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #edf0f1;
+  background-color: #f1efff;
 }
 
 .content {
@@ -214,7 +214,7 @@ body {
 }
 
 .password {
-  color: f1efff;
+  color: ##473c8d;
   font-size: 14px;
   margin: 15px 0;
   text-align: center;
@@ -252,4 +252,8 @@ body {
 .sign-up-js .first-content .first-column,
 .sign-up-js .first-content .second-column {
   z-index: 11;
+}
+
+.imglogin {
+  width: 200px;
 }
