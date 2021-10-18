@@ -243,13 +243,7 @@ body {
   border-bottom-right-radius: 15px;
 }
 
-/*QUANDO SIGN UP*/
-.sign-up-js .second-content .first-column,
-.sign-up-js .second-content .second-column {
-  z-index: -1;
-}
-
-.sign-up-js .first-content .first-column,
+/ .sign-up-js .first-content .first-column,
 .sign-up-js .first-content .second-column {
   z-index: 11;
 }
