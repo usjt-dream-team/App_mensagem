@@ -13,3 +13,7 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
+
+// link abaixo mostra como usar as rotas e ir direto para
+// o component exato (eu espero pelo menos =/)
+//https://balta.io/blog/angular-rotas-guardas-navegacao
