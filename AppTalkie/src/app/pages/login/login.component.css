@@ -38,10 +38,10 @@ body {
   background-color: #473c8d;
   width: 40%;
   height: 100%;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 
-  left: 0%;
+  right: 0%;
 }
 
 .title {
@@ -117,7 +117,7 @@ body {
   ##################################################################################
 */
 .first-content {
-  display: flex;
+  display: none;
   /*display: none; */
 }
 
@@ -205,12 +205,12 @@ body {
 
 .second-content .first-column {
   order: 2;
-  z-index: -1;
+  z-index: 1;
 }
 
 .second-content .second-column {
   order: 1;
-  z-index: -1;
+  z-index: 1;
 }
 
 .password {
