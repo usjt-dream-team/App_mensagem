@@ -108,14 +108,6 @@ body {
   color: #473c8d;
 }
 
-/*
- ###################################################################################
-  PARA VER A TELA DE LOGIN 
-  APAGAR NO ".first-content" A LINHA "DISPLAY: NONE;" PARA FLEX
-
-  DEPOIS MUDAR NO ".second-content" PARA "DISPLAY: NONE;"
-  ##################################################################################
-*/
 .first-content {
   display: flex;
   /*display: none; */
@@ -222,36 +214,6 @@ body {
 
 .password::first-letter {
   text-transform: capitalize;
-}
-
-/*QUANDO SIGN IN*/
-.sign-in-js .first-content .first-column,
-.sign-in-js .first-content .second-column {
-  z-index: -1;
-}
-
-.sign-in-js .second-content .first-column,
-.sign-in-js .second-content .second-column {
-  z-index: 11;
-}
-
-.sign-in-js .content::before {
-  left: 60%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 15px;
-}
-
-/*QUANDO SIGN UP*/
-.sign-up-js .second-content .first-column,
-.sign-up-js .second-content .second-column {
-  z-index: -1;
-}
-
-.sign-up-js .first-content .first-column,
-.sign-up-js .first-content .second-column {
-  z-index: 11;
 }
 
 .imglogin {
